@@ -1,26 +1,32 @@
 {
-    // Linter Settings
-    "typescript.validate.enable": false,
-    "javascript.validate.enable": false,
-    "eslint.validate": ["typescript", "typescriptreact"],
-    "eslint.workingDirectories": ["./src"],
-    "editor.codeActionsOnSave": {"source.fixAll.eslint": true},
+  // Linter Settings
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false,
+  "eslint.validate": ["typescript", "typescriptreact"],
+  "eslint.workingDirectories": ["./src"],
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
 
-    // Use Non-relative imports so the game can find files in its fake directory structure
-    "javascript.preferences.importModuleSpecifier": "non-relative",
-    "typescript.preferences.importModuleSpecifier": "non-relative",
+  // Use Non-relative imports so the game can find files in its fake directory structure
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
 
-    // Bitburner Extension Settings
-    "bitburner.scriptRoot": "./dist/",
+  // Bitburner Extension Settings
+  "bitburner.scriptRoot": "./dist/",
 
-    // Autosave Settings
-    "files.autoSave": "off",
+  // Autosave Settings
+  "files.autoSave": "afterDelay",
 
-    // Autosnippet settings
-    "autoSnippet.snippets": [
-        {
-            "pattern": "**/*.ts", 
-            "snippet": "ns-template"
-        },
-    ],
+  // Autosnippet settings
+  "autoSnippet.snippets": [
+    {
+      "pattern": "**/*.ts",
+      "snippet": "ns-template"
+    }
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#271882",
+    "titleBar.activeBackground": "#3721B6",
+    "titleBar.activeForeground": "#FAF9FE"
+  },
+  "bitburner.authToken": "uSqrW5KYzbuQFnWa3KuBhxc+RF/0Ik4/dhNzzWGhw5bYslNvPNV57wQHAKdaxiEq"
 }
